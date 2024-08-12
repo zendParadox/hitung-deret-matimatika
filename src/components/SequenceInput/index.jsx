@@ -22,7 +22,7 @@ function SequenceInput({ onSubmit }) {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="ms-4 px-8 py-2 bg-blue-400 rounded-full font-semibold text-slate-100 mt-3">
+            className="ms-4 px-8 py-2 bg-blue-400 rounded-full font-semibold text-slate-100 mt-3 md:mt-6">
             Hitung
           </button>
         </div>

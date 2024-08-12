@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="container w-full h-full">
       <div className="h-screen flex items-center justify-center">
-        <div className="border shadow-xl w-full rounded-2xl py-14 mx-3">
-          <h1 className="text-center text-xl tracking-wider font-semibold mb-3">
+        <div className="border shadow-xl w-full rounded-2xl py-14 mx-3 md:max-w-xl">
+          <h1 className="text-center text-xl tracking-wider font-semibold mb-3 md:mb-10">
             Kalkulator Deret Angka
           </h1>
           <SequenceInput onSubmit={handleSequenceSubmit} />
